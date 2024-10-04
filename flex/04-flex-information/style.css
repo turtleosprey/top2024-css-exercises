@@ -8,8 +8,27 @@ img {
 }
 
 .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
   font-size: 36px;
   font-weight: 900;
+}
+.items{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 52px;
+}
+.fruit{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: start;
+  width: 200px;
+}
+.text{
+  text-align: center;
 }
 
 /* do not edit this footer */
